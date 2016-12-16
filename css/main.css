@@ -172,6 +172,7 @@ main{
 }
 .form-container{
     height: auto;
+    display: block;
     max-width: 100%;
     margin-top: 17.5rem;
     margin-bottom: 65px;
@@ -181,8 +182,8 @@ main{
     margin-left: 5rem;
     background-size: cover;
     background-color: #55A1FF;
-    width: 55rem;;
-    height: 35rem;
+    width: 55rem;
+    height: auto;
 }
 .map{
     margin-right: 0;
@@ -190,7 +191,7 @@ main{
     background-size: cover;
 }
 .map img{
-    height: 35rem;
+    height: 32.5rem;
     width: 55rem;
 }
 .form-control{
@@ -214,6 +215,11 @@ main{
 .list-group-item{
     width: 100%;
     height: auto;
+}
+.row{
+    align-content: center;
+    height: auto;
+    width: auto;
 }
 
 
