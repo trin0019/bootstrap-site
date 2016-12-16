@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="libs/iconic/font/css/iconic-glyphs.css">
+    <link rel="stylesheet" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="libs/iconic/font/css/iconic-bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <div id="bootstrap-override">
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="masthead">
+                    <h1>Global Guardian</h1>
+                </div>
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Global Guardian</a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="help.html">Take Action</a></li>
+                            <li class="active"><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div class="form-container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="map">
+                        <img class="img-thumbnail img-fluid" src='https://maps.googleapis.com/maps/api/staticmap?center=45.348307,-75.755990&zoom=13&size=600x300&maptype=roadmap&markers=color:green%7Clabel:%7C45.348307, -75.755990&key=AIzaSyDL4k300hKYYEYlnwIR1ultaoWv3vGmzqY') alt="location">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-6">
+                    <div class="panel panel-default col-md-offset-1 contactPanel">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Contact Us</h3>
+                        </div>
+                        <div class="panel-body">
+                            <form id="contactForm" class="form-horizontal">
+                                <div class="form-group">
+                                    <label for="inputFirstName" class="col-sm-3 control-label">Name</label>
+                                    <div class="col-sm-6">
+                                        <input type="text" id="inputFirstName" class="form-control" placeholder="John Smith">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputEmail" class="col-sm-3 control-label">Email</label>
+                                    <div class="col-sm-6">
+                                        <input type="email" id="inputEmail" class="form-control" placeholder="email.address@example.com">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputComment" class="col-sm-3 control-label">Comment</label>
+                                    <div class="col-sm-6">
+                                        <textarea id="inputComment" class="form-control" rows="4" placeholder="Your comments here ..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-offset-3 col-sm-9">
+                                        <button type="submit" class="btn btn-default">Send</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer align="center" class="footer">
+                <div class="navbar navbar-inverse navbar-fixed-bottom">
+                    <div class="container">
+                        <p>&copy; Global Guardian</p>
+                    </div>
+                    <div class="container text-center">
+                        <a href="https://www.facebook.com"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        <a href="https://www.instagram.com"><i class="fa fa-instagram fa-3x aria-hidden=true"></i></a>
+                        <a href="https://www.youtube.com"><i class="fa fa-youtube-square fa-3x"></i></a>
+                        <a href="https://www.plus.google.com"><i class="fa fa-google-plus-square fa-3x"></i></a>
+                        <a href="https://login.skype.com/login?client_id=578134&redirect_uri=https%3A%2F%2Fweb.skype.com%2F%3FopenPstnPage%3Dtrue"><i class="fa fa-skype fa-3x"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="libs/jquery/dist/jquery.min.js"></script>
+    <script src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,223 @@
+/************************************
+            Color Scheme
+
+grade 1 blue - #30E1FF
+grade 2 blue - #42AEE8
+grade 3 blue - #55A1FF
+grade 4 blue - #426BE8
+grade 5 blue - #4850FF
+
+*************************************/
+
+/************************************
+            Fonts
+
+font-family: 'Montserrat', sans-serif;
+font-family: 'Libre Baskerville', serif;
+
+*************************************/
+
+
+h1,
+h2{
+    font-family: 'Libre Baskerville', serif;
+}
+p, 
+li{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #426BE8;
+    height: auto;
+    width: auto;
+}
+form {
+    max-width: 50%;
+}
+main{
+    align-content: center;
+    display: block;
+    margin-top: 20rem;
+}
+.list-group li{
+    font-size: 2rem;
+}
+.list-group p{
+    font-size: 15px;
+}
+.masthead{
+    background-image: url('../img/19-impossibly-detailed-views-of-earth-from-space-at-night.jpg');
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 10rem;
+    color: white; 
+}
+.jumbotron{
+    background-image: url('../img/436.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: auto;
+    color: whitesmoke;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 65px;
+    border: 1px solid #4850FF;
+}
+.masthead h1{
+    display: block;
+    margin-top: 2rem;  
+}
+.container h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 5rem;
+    display: block;
+    text-align: center;
+}
+.container h2{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 3rem;
+    margin-top: 5rem;
+    display: block;
+    text-align: center;
+}
+.nav .nav-inverse{
+    display: inline-block;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.footer{
+    height: auto;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+.fa-facebook-square{
+    color: #4850FF;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+.fa-facebook-square:before{
+    content: '\f082';
+} 
+.fa-facebook-square:hover{
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #42AEE8;
+}
+.fa-twitter-square{
+    color: #4850FF;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+.fa-twitter-square:hover{
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #42AEE8;
+}
+.fa-instagram{
+    color: #4850FF;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+.fa-instagram:hover{
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #42AEE8;
+}
+.fa-google-plus-square{
+    color: #4850FF;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+.fa-google-plus-square:hover{
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #42AEE8;
+}
+.fa-youtube-square{
+    color: #4850FF;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 18px;
+}
+.fa-youtube-square:hover{
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #42AEE8;
+}
+.fa-skype{
+    color: #4850FF;
+    background-color: white;
+    border-radius: 10px;
+}
+.fa-skype:hover{
+    -webkit-transition: all 0.5s linear;
+            transition: all 0.5s linear;
+    color: #42AEE8;
+}
+.content-container{
+    max-height: auto;
+    color: white;
+    max-width: 90%;
+    margin-top: 17.5rem;
+    margin-bottom: 65px;
+    align-content: center;
+    border: 1px solid white; 
+}
+.form-container{
+    height: auto;
+    max-width: 100%;
+    margin-top: 17.5rem;
+    margin-bottom: 65px;
+    align-content: center;
+}
+.panel{
+    margin-left: 5rem;
+    background-size: cover;
+    background-color: #55A1FF;
+    width: 55rem;;
+    height: 35rem;
+}
+.map{
+    margin-right: 0;
+    margin-left: 5rem;
+    background-size: cover;
+}
+.map img{
+    height: 35rem;
+    width: 55rem;
+}
+.form-control{
+    width: 40rem;
+    margin-top: 1px;
+    margin-bottom: 0;
+}
+.btn{
+    height: 3rem;
+    margin-bottom: 0;
+}
+.help-container{
+    display: block;
+    max-height: auto;
+    color: white;
+    max-width: 90%;
+    margin-top: 17.5rem;
+    margin-bottom: 65px;
+    align-content: center;
+}
+.list-group-item{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
